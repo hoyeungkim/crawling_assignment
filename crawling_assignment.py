@@ -1,9 +1,10 @@
+# extracted_dict.py를 통해 추려낸 100개의 기업들의 주요데이터를 추출하여 dataframe을 형성하고 csv파일로 저장하는 코드
 import pandas as pd
 import re
 import trafilatura
 import requests
 from bs4 import BeautifulSoup
-import json  # JSON 파일을 읽기 위한 모듈
+import json
 
 # JSON 파일에서 기업명과 고유 코드를 로드하는 함수
 def load_company_codes(file_path="extracted_dict.json"):
