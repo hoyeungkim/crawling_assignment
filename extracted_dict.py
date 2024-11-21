@@ -1,3 +1,5 @@
+#순위표가 있는 웹페이지에서 기업들의 고유코드를 가져와 dictionary형태로 저장하는 코드
+#여기서는 IT관련 주식들의 top100을 선정하고 있다.
 import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
