@@ -37,8 +37,6 @@ def fetch_data(url):
         return ""
 
 # 매출액, 당기순이익, 영업활동으로인한현금흐름 등 데이터 추출
-import pandas as pd
-import re
 
 def extract_finance_data(text):
     # 정규식 패턴: 매출액, 당기순이익, 영업활동현금흐름, 투자활동현금흐름, 재무활동현금흐름
