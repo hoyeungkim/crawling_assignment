@@ -1,3 +1,4 @@
+#기업의 각 항목에 대해 점수를 부여하는 코드
 import pandas as pd
 import numpy as np
 
