@@ -1,3 +1,4 @@
+#추출된 데이터에서 가장 최근 값만을 추출하는 코드
 import pandas as pd
 
 # CSV 파일 읽기
