@@ -1,3 +1,4 @@
+#제일 좋은 기업과 기업들 평균치를 방사형 차트로 보여주는 코드
 import pandas as pd
 import plotly.graph_objects as go
 
